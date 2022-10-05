@@ -1,0 +1,16 @@
+#!/bin/bash
+echo ""
+echo "# CIFRAR ARCHIVO"
+echo "gpg -o x.asc -ear $ALIAS_KEY $FILE"
+echo ""
+echo "-------------------"
+echo ""
+echo "# DESCIFRAR ARCHIVO"
+echo "gpg -o FILE -d $FILE_CIFRADO"
+echo ""
+echo "-------------------"
+echo ""
+echo "# CIFRAR MULTIPLES ARCHIVOS"
+echo "gpg --multifile -ear $ALIAS_KEY *"
+echo ""
+exit 0;
