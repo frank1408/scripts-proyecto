@@ -61,10 +61,10 @@ echo "360" > $RUSUARIO/pids.max
 echo "720" > $RSISTEMA/pids.max
 
 
-echo "1024M" >  $RCGROUP/memory.swap.max
-echo "1024M" >     $RUTA/memory.swap.max
-echo "1024M" > $RUSUARIO/memory.swap.max
-echo "1024M" > $RSISTEMA/memory.swap.max
+echo "2048M" >  $RCGROUP/memory.swap.max
+echo "2048M" >     $RUTA/memory.swap.max
+echo "2048M" > $RUSUARIO/memory.swap.max
+echo "2048M" > $RSISTEMA/memory.swap.max
 
 
 echo "1024M" >  $RCGROUP/memory.max
@@ -77,7 +77,7 @@ echo "2048M" > $RSISTEMA/memory.max
 echo "10000 100000" >  $RCGROUP/cpu.max
 echo "10000 100000" >     $RUTA/cpu.max
 echo "10000 100000" > $RUSUARIO/cpu.max
-echo "40000 100000" > $RSISTEMA/cpu.max
+echo "50000 100000" > $RSISTEMA/cpu.max
 
 
 exit 0;
