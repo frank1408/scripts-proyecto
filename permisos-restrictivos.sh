@@ -18,4 +18,11 @@ chmod 700 /usr/bin/dd
 chmod 700 /usr/bin/rm
 chmod 700 /usr/bin/rmdir
 
+chmod 751 /home
+
+chmod 751 /
+chmod 750 /boot
+chmod 750 /var
+chmod 751 /dev
+
 exit 0;

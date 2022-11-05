@@ -1,0 +1,17 @@
+
+
+NOV 5 2022 Guatemala Guatemala
+GNU/Linux Debian x86_64
+
+Aproposito se realiza el intento
+de la eliminacion de archivos
+para comprobar los ajustes realizados
+
+asi como el acceso a zonas privilegiadas
+del sistema donde los usuarios comunes
+no deben tener acceso y se comprueba 
+que los usuarios comunes no tienen acceso
+a los recursos ubicados en esas zonas.
+
+
+
