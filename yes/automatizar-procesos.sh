@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "crontab -e"
+crontab -e
+# Cada Hora Se Ejecuta
+0 * * * * /root/proc/crear-snapshost.sh
 
 # Cada Hora Se Ejecuta El Proceso
 #0 * * * * /root/proceso-automatico.sh
